@@ -1,4 +1,5 @@
 fun main(){
+    println("======= start of the app =======")
     print("Enter number of User: ")
     val numberOfUser= readLine()!!.toInt()
     for(userID in 1..numberOfUser){
@@ -19,5 +20,7 @@ fun main(){
         println("pets name: $petsName")
         if (petsName!!.contains("cat"))
             println("we have program for your cat")
+        println("======= End of the app =======")
+
     }
 }
