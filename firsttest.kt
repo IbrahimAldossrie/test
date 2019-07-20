@@ -1,6 +1,6 @@
 fun main(){
     println("======= start of the app =======")
-    print("Enter number: ")
+    print("Enter numbegger: ")
     val numberOfUser= readLine()!!.toInt()
     for(userID in 1..numberOfUser){
         print("$userID- enter your name: ")
